@@ -16,14 +16,14 @@ except Exception as e:
 """
     #un usuario tiene que hacertar el numero random del 1 al 10 y asta que lo adibine termina
 import random 
-stry:
-    iNumUser = int(input("agrege su numero:"))
-    iNumRamdom = random.randint(1,11)
+try:
+  iNumUser = int(input("agrege su numero:"))
+  iNumRamdom = random.randint(1,11)
 
-    while (iNumUser != iNumRamdom ):
-        print ("JA JA JA",iNumUser,"no es")  
+  while (iNumUser != iNumRamdom ):
+    print ("JA JA JA",iNumUser,"no es")  
 
     print("Bien", iNumUser,"si es el nuemro ")
 
 except Exception as e:
-        print ("en este codigo colo entran digitos.")
+  print ("en este codigo colo entran digitos.")
