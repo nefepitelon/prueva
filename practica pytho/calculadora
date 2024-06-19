@@ -1,0 +1,29 @@
+
+
+"""
+try:
+    iNum = int(input("Agregue un numero:"))
+    iSum=0
+    i=1
+
+    for i in range(1,iNum + 1):
+        iSum = iSum + i
+
+    print ("el factorial de es :",iSum)  
+
+except Exception as e:
+        print ("en este codigo colo entran digitos.")
+"""
+    #un usuario tiene que hacertar el numero random del 1 al 10 y asta que lo adibine termina
+import random 
+stry:
+    iNumUser = int(input("agrege su numero:"))
+    iNumRamdom = random.randint(1,11)
+
+    while (iNumUser != iNumRamdom ):
+        print ("JA JA JA",iNumUser,"no es")  
+
+    print("Bien", iNumUser,"si es el nuemro ")
+
+except Exception as e:
+        print ("en este codigo colo entran digitos.")
